@@ -129,7 +129,6 @@ class Game {
       for (let i = 1; i < this.snake.body.length; i++) {
         let _body = this.snake.body[i];
         if (this.snake.body[0].x == _body.x && this.snake.body[0].y == _body.y) {
-          if (game.score > Score_game) {localStorage.setItem("score", game.score)}
           clearInterval(gameInterval);
           confirm(`Game Over:  Score: ${game.score}! Play again?`) ? location.reload() : location.reload()
         }
