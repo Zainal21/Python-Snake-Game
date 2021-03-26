@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phytons - Kab Karanganyar</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div class="container">
+        <div class="instruction">
+            <div class="card">
+                <h1>Instructions</h1>
+                <ul>
+                    <ol>1. Please Input your name before playing the game </ol>
+                    <ol>2. Press Button "Play Game" to Play The Game </ol>
+                    <ol>3. Using Arrow key or W,A,S,D to move the Snake </ol>
+                    <ol>4. Score will be show in alert if you lose on the game </ol>
+                    <ol>5. Enjoy The Game </ol>   
+                </ul>
+                <div class="from-group">
+                    <input type="text" class="form-player-name" placeholder="Input Your Name" oninput="Check(this)" required autocomplete="none"> 
+                    <button class="btn btn-primary"  type="button" id="btn-play" disabled>Play Game</button>
+                </div>
+            </div>
+        </div>
+        <div class="game-container">
+            <div class="game">
+                <!-- game control -->
+                <div class="control">
+                    <div class="score">
+                        Score:  
+                        <div>6</div>
+                    </div>
+                    <div class="lgo">
+                        <h1><strong>PYTHON</strong></h1>
+                    </div>
+                    <div class="time">
+                        Time:
+                        <div>00:00:00</div>
+                    </div>
+                </div>
+                <!-- gend ame control -->
+                <!-- canvas board -->
+                <canvas id="canvas" width="960" height="600">
+                </canvas>
+                <!--end \ canvas board -->
+                <!-- rewind button -->
+                <div class="form-group">
+                    <button type="button" class="btn btn-rewind">Rewind</button>
+                </div>
+                <!-- end rewind button -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/Food.js"></script>
+    <script src="js/Snake.js"></script>
+    <script src="js/Game.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
