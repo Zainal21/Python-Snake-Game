@@ -6,10 +6,6 @@
 
 ![Home](demo.png)
 
-## Prerequiste
-
--   [Composer](https://getcomposer.org/) - Download and Install Composer
-
 ### Installation
 
 Install the dependencies and start the server.
