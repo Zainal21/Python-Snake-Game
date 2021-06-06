@@ -12,9 +12,9 @@
 ### Installation
 
 ```sh
-$ git clone https://github.com/Zainal21/Python-Snake-Game/
+$ git clone https://github.com/Zainal21/Python-Snake-Game.git
 $ cd Python-Snake-Game
-$ double click or open index.html ifor running this project
+$ double click or open index.html in your web browser for running this project
 ```
 
 ---
