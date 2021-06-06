@@ -1,4 +1,6 @@
-# Python-Snake-Game
+<!-- @format -->
+
+# Python-Snake-Game (skill competition) - Client Side Module
 
 ### Introduce
 
@@ -16,6 +18,10 @@ $ double click or open index.html ifor running this project
 ```
 
 ---
+
+## Note
+
+> **There are some unfinished features, such as Rewind, timer, etc**
 
 ### The Project is MIT licensed.
 
