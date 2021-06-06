@@ -2,13 +2,12 @@
 
 ### Introduce
 
-**Python-Snake-Game** Snake is the common name for a video game concept where the player maneuvers a line which grows in length, with the line itself being a primary obstacle. The concept originated in the 1976 arcade game Blockade, and the ease of implementing Snake has led to hundreds of versions for many platforms.Wikipedia
+**Python-Snake-Game** Snake is the common name for a video game concept where the player maneuvers a line which grows in length, with the line itself being a primary obstacle. The concept originated in the 1976 arcade game Blockade, and the ease of implementing Snake has led to hundreds of versions for many platforms.[Wikipedia](https://www.wikipedia.org/)
 
-![Home](demo.png)
+![Home](demo-1.png)
+![Home](demo-2.png)
 
 ### Installation
-
-Install the dependencies and start the server.
 
 ```sh
 $ git clone https://github.com/Zainal21/Python-Snake-Game/
